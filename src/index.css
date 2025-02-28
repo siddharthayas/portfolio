@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-primary text-text;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: twinkle 4s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.section-heading {
+  @apply text-2xl md:text-3xl font-bold mb-6 text-text relative inline-block;
+}
+
+.section-heading::after {
+  content: '';
+  @apply absolute -bottom-2 left-0 w-1/2 h-1 bg-accent;
+}
+
+.skill-card {
+  @apply bg-secondary/80 p-4 rounded-lg shadow-lg transition-all duration-300 border border-accent/10 hover:border-accent/30;
+}
+
+.skill-card:hover {
+  @apply transform -translate-y-1 shadow-xl shadow-accent/5;
+}
+
+.project-card {
+  @apply bg-secondary rounded-lg overflow-hidden shadow-lg transition-all duration-300 border border-accent/10 hover:border-accent/30;
+}
+
+.project-card:hover {
+  @apply transform -translate-y-2 shadow-xl shadow-accent/5;
+}
+
+.certificate-card {
+  @apply bg-secondary rounded-lg overflow-hidden shadow-lg transition-all duration-300 cursor-pointer border border-accent/10 hover:border-accent/30;
+}
+
+.certificate-card:hover {
+  @apply transform scale-105 shadow-xl shadow-accent/5;
+}
+
+.contact-input {
+  @apply w-full bg-secondary border border-textLight/20 rounded-md p-3 text-text focus:border-accent focus:outline-none transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-transparent border border-accent text-accent px-6 py-3 rounded-md font-medium transition-all duration-300 hover:bg-accent/10 flex items-center justify-center;
+}
+
+.btn-secondary {
+  @apply bg-accent text-primary px-6 py-3 rounded-md font-medium transition-all duration-300 hover:bg-accent/90 flex items-center justify-center;
+}
+
+.language-switcher {
+  @apply fixed top-20 right-4 z-50 bg-secondary/80 backdrop-blur-sm p-2 rounded-full shadow-lg border border-accent/20;
+}
+
+.language-option {
+  @apply w-8 h-8 flex items-center justify-center rounded-full cursor-pointer transition-all duration-300;
+}
+
+.language-option.active {
+  @apply bg-accent text-primary;
+}
+
+.progress-bar {
+  @apply h-2 bg-secondary/50 rounded-full overflow-hidden;
+}
+
+.progress-fill {
+  @apply h-full bg-accent;
+}
+
+.timeline-item {
+  @apply relative pl-8 pb-8 border-l border-textLight/30;
+}
+
+.timeline-item::before {
+  content: '';
+  @apply absolute -left-[5px] top-0 w-[10px] h-[10px] rounded-full bg-accent;
+}
+
+.timeline-item:last-child {
+  @apply border-l-0;
+}
+
+.nav-link {
+  @apply relative text-textLight hover:text-accent transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+/* Improved mobile menu */
+@media (max-width: 768px) {
+  .language-switcher {
+    @apply top-4 right-16 z-50;
+  }
+}
