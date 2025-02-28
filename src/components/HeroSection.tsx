@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { FileDown, ChevronDown } from "lucide-react";
+import herophoto from "/public/my.jpg";
 
 const HeroSection: React.FC = () => {
 	const { t } = useTranslation();
@@ -82,7 +83,7 @@ const HeroSection: React.FC = () => {
 						}}
 					>
 						<img
-							src="public/my.jpg"
+							src={herophoto}
 							alt="Siddhartha Subedi"
 							className="w-full h-full object-cover"
 						/>
