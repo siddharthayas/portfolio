@@ -83,7 +83,7 @@ const HeroSection: React.FC = () => {
 						}}
 					>
 						<img
-							src="./my.jpg"
+							src="./my.webp"
 							alt="Siddhartha Subedi"
 							className="w-full h-full object-cover"
 						/>

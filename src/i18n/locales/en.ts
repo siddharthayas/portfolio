@@ -11,8 +11,8 @@ export default {
   hero: {
     greeting: 'Hi, I\'m',
     name: 'Siddhartha Subedi',
-    title: 'Aspiring Mechatronics Engineer & Web Developer',
-    description: 'I\'m passionate about combining mechanical engineering with electronics and software to create innovative solutions.',
+    title: 'Engineering & Technology Enthusiast | +2 Science Graduate',
+    description: 'I\'m passionate learner with a strong interest in vehicles, computers (both hardware and software), robotics, electronics, physics, and mechanical work.',
     cta: 'Download CV',
   },
   about: {
@@ -133,7 +133,7 @@ export default {
         description: 'A prototype smart home system using Arduino, featuring temperature control, lighting automation, and security monitoring.',
         tech: ['Arduino', 'C++', 'IoT', 'Sensors'],
         github: 'https://github.com/siddharthasubedi',
-        demo: '#',
+        demo: 'https://doi.org/10.52403/ijrr.20241127',
         image: 'https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
       },
       {
