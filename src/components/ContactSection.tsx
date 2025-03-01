@@ -165,7 +165,7 @@ const ContactSection: React.FC = () => {
                 
                 <div className="flex items-center space-x-4">
                   <motion.a
-                    href="https://linkedin.com/in/siddharthasubedi"
+                    href="https://www.linkedin.com/in/siddhartha-subedi-329827315"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-textLight hover:text-accent transition-colors duration-300"
@@ -179,7 +179,7 @@ const ContactSection: React.FC = () => {
                 
                 <div className="flex items-center space-x-4">
                   <motion.a
-                    href="https://github.com/siddharthasubedi"
+                    href="https://github.com/siddharthayas"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-textLight hover:text-accent transition-colors duration-300"
@@ -193,7 +193,7 @@ const ContactSection: React.FC = () => {
                 
                 <div className="flex items-center space-x-4">
                   <motion.a
-                    href="mailto:siddhartha.subedi@example.com"
+                    href="mailto:siddharthasubedi4@gmail.com"
                     className="text-textLight hover:text-accent transition-colors duration-300"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}

@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             {t('footer.designed').replace('❤️', '')}
-            <Heart size={14} className="text-accent fill-accent" />
+            {/* <Heart size={14} className="text-accent fill-accent" /> */}
           </motion.p>
         </div>
       </div>
