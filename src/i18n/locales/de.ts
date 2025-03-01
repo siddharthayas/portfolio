@@ -35,19 +35,19 @@ export default {
         },
         {
           title: '+2 Naturwissenschaften (Physikalische Richtung)',
-          period: '2018 - 2020',
+          period: '2022 - 2024',
           status: 'Abgeschlossen',
           description: 'Fokus auf Physik, Chemie, Mathematik und Computer, Aufbau einer soliden Grundlage in wissenschaftlichen Prinzipien.',
         },      
         {
           title: 'Deutsch Sprache',
-          period: '2023 - Heute',
+          period: '2024 - Heute',
           status: 'In Bearbeitung',
           description: 'Entwicklung mittlerer Deutschkenntnisse zur Vorbereitung auf Bildungs- und Karrieremöglichkeiten in Deutschland.',
         },
         {
           title: 'Zukunftsziel: Ausbildung in Deutschland',
-          period: '2024 - Zukunft',
+          period: '2025 - Zukunft',
           status: 'Geplant',
           description: 'Planung einer Berufsausbildung in Mechatronik oder Automobilingenieurwesen in Deutschland.',
         },
@@ -230,6 +230,6 @@ export default {
   },
   footer: {
     copyright: '© 2024 Siddhartha Subedi. Alle Rechte vorbehalten.',
-    designed: 'Entworfen & Entwickelt mit ❤️',
+    designed: 'Lass uns Ideen in die Realität umsetzen.',
   },
 };

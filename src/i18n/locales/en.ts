@@ -35,19 +35,19 @@ export default {
         },
         {
           title: '+2 Science (Physical Stream)',
-          period: '2018 - 2020',
+          period: '2022 - 2024',
           status: 'Completed',
           description: 'Focused on Physics, Chemistry, Mathematics and Computer, building a strong foundation in scientific principles.',
         }, 
         {
           title: 'German Language',
-          period: '2023 - Present',
+          period: '2024 - Present',
           status: 'In Progress',
           description: 'Developing intermediate German language skills to prepare for education and career opportunities in Germany.',
         },
         {
           title: 'Future Goal: Ausbildung in Germany',
-          period: '2024 - Future',
+          period: '2025 - Future',
           status: 'Planned',
           description: 'Planning to pursue vocational training in Mechatronics or Automobile Engineering in Germany.',
         },
