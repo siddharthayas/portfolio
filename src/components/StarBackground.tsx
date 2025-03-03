@@ -61,8 +61,9 @@ const StarBackground: React.FC = () => {
         
         const starElement = starElements[index] as HTMLElement;
         if (starElement) {
-          starElement.style.top = `${star.y}px`;
-          starElement.style.left = `${star.x}px`;
+          // starElement.style.top = `${star.y}px`;
+          // starElement.style.left = `${star.x}px`;
+          starElement.style.transform = `translate(${star.x}px, ${star.y}px)`;
         }
       });
       
