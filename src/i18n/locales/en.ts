@@ -162,55 +162,87 @@ export default {
   },
   achievements: {
     title: 'Achievements & Certifications',
+     // --- NEW: Add this 'tabs' object for localized tab names ---
+     tabs: {
+      technical: 'Technical',
+      sportEca: 'Sport & ECA'
+    },
+    // --- NEW: Add this 'noItems' message for when a category is empty ---
+    noItems: 'No achievements to display in this category yet.',
+   
     items: [
       {
+        id:1,
         title: 'Arduino Review Paper',
         description: 'Published a comprehensive review of Arduino applications in automation.',
+        link: 'https://www.ijrrjournal.com/IJRR_Vol.11_Issue.11_Nov2024/IJRR27.pdf',
         image: './achievement1.webp',
         date: '2024',
+        type: "technical",
+        isPlaceholder: false
       },
       {
+        id:1,
         title: 'Relay Race (Boys) - Second Position',
         description: 'I secured second place in the boys relay race during the co-curricular activities at Amar Singh Secondary School.',
         image: './achievement2.webp',
         date: '2024',
+        type: "sport_eca" ,
+        isPlaceholder: false
       },
       {
+        id:2,
         title: 'Basketball (Boys) - First Position',
         description: 'Winning first place in the boys basketball competition at Amar Singh Secondary School was a proud moment for me.',
         image: './achievement3.webp',
         date: '2024',
+        type: "sport_eca" ,
+        isPlaceholder: false
       },
       {
+        id:3,
         title: 'Cricket (Boys) - Second Position',
         description: 'We finished in second place in the boys cricket competition, showcasing teamwork and sportsmanship.',
         image: './achievement4.webp',
         date: '2024',
+        type: "sport_eca" ,
+        isPlaceholder: false
       },
       
       {
+        id:4,
         title: 'Cross Country - First Position',
         description: 'Secured first place in the Cross Country race, demonstrating exceptional endurance, speed, and determination in a highly competitive event.',
         image: './achievement6.webp',
         date: '2019',
+        type: "sport_eca" ,
+        isPlaceholder: false
       },
-      {
+      { id:5,
         title: 'Football (Boys) - First Position',
         description: 'I led my team to victory in the boys football competition, securing first place through dedication and teamwork.',
         image: './achievement7.webp',
         date: '2019',
+        type: "sport_eca" ,
+        isPlaceholder: false
       },
       {
+        id:6,
         title: 'Handball (Boys) - First Position',
         description: 'Awarded for securing first place in the Handball (Boys) competition, demonstrating outstanding teamwork, strategy, and athleticism.',
         image: './achievement8.webp',
         date: '2019',
+        type: "sport_eca" ,
+        isPlaceholder: false
       },
       {
+        id:7,
         title: 'Poster Competition - Second Position',
         description: 'In a poster competition organized by Kantipur Academy of Science & Technology, I secured second place for my creative design.',
         image: './achievement5.webp',
         date: '2018',
+        type: "sport_eca" ,
+        isPlaceholder: false
       },
       
     ],
