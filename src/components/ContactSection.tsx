@@ -60,7 +60,11 @@ const ContactSection: React.FC = () => {
 			.send(
 				import.meta.env.VITE_EMAILJS_SERVICE_ID, // ✅ Replace with your actual EmailJS service ID
 				import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // ✅ Replace with your actual EmailJS template ID
-				formData, // must match the field names in EmailJS template: name, email, message
+				{
+					from_name: formData.name,
+					from_email: formData.email,
+					message: formData.message,
+				}, // must match the field names in EmailJS template: name, email, message
 				import.meta.env.VITE_EMAILJS_PUBLIC_KEY // ✅ Replace with your actual EmailJS public key
 			)
 			.then(() => {
