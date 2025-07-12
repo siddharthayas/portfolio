@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { FileDown, ChevronDown } from "lucide-react";
 
-
 const HeroSection: React.FC = () => {
 	const { t } = useTranslation();
 
@@ -54,7 +53,7 @@ const HeroSection: React.FC = () => {
 						{t("hero.description")}
 					</motion.p>
 					<motion.a
-						href="#"
+						href="/Lebenslauf_Siddhartha.pdf"
 						className="btn-primary inline-flex items-center"
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
